@@ -1,9 +1,9 @@
 node {
    def mvnHome
-   stage('Preparation') { // for display purposes
+   stage('Preparations') { // for display purposes
         echo "Hello world "
    }
-   stage('Build') {
+   stage('BuildQA') {
           echo "Hello world "
    }
    stage('Results') {
